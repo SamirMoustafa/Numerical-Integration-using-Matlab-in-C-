@@ -1,0 +1,13 @@
+﻿  MatlabForm.cpp
+c:\users\samir moustafa\desktop\college projects\matlabproject\matlabproject\MatlabForm.h(328): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\users\samir moustafa\desktop\college projects\matlabproject\matlabproject\MatlabForm.h(329): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(90): note: see declaration of 'strcat'
+c:\users\samir moustafa\desktop\college projects\matlabproject\matlabproject\MatlabForm.h(330): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(90): note: see declaration of 'strcat'
+MatlabForm.cpp(8): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+  MatlabForm.obj : /DEBUG:FASTLINK is not supported when managed code is present; restarting link with /DEBUG:FULL
+MatlabForm.obj : warning LNK4248: unresolved typeref token (01000008) for 'engine'; image may not run
+MatlabForm.obj : warning LNK4248: unresolved typeref token (01000027) for 'mxArray_tag'; image may not run
+  MatlabProject.vcxproj -> C:\Users\Samir Moustafa\Desktop\College Projects\MatlabProject\x64\Debug\MatlabProject.exe
+  MatlabProject.vcxproj -> C:\Users\Samir Moustafa\Desktop\College Projects\MatlabProject\x64\Debug\MatlabProject.pdb (Partial PDB)

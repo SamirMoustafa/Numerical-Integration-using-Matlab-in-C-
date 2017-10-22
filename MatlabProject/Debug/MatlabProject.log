@@ -1,0 +1,12 @@
+﻿  MatlabForm.cpp
+MatlabForm.cpp(8): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+  MatlabForm.obj : /DEBUG:FASTLINK is not supported when managed code is present; restarting link with /DEBUG:FULL
+MatlabForm.obj : warning LNK4248: unresolved typeref token (01000009) for 'engine'; image may not run
+MatlabForm.obj : error LNK2028: unresolved token (0A00005D) "extern "C" int __cdecl engSetVisible(struct engine *,bool)" (?engSetVisible@@$$J0YAHPAUengine@@_N@Z) referenced in function "public: __clrcall MatlabForm::CMatlab::CMatlab(class System::Windows::Forms::Form ^)" (??0CMatlab@MatlabForm@@$$FQ$AAM@P$AAVForm@Forms@Windows@System@@@Z)
+MatlabForm.obj : error LNK2028: unresolved token (0A0000CB) "extern "C" struct engine * __cdecl engOpen(char const *)" (?engOpen@@$$J0YAPAUengine@@PBD@Z) referenced in function "public: __clrcall MatlabForm::CMatlab::CMatlab(class System::Windows::Forms::Form ^)" (??0CMatlab@MatlabForm@@$$FQ$AAM@P$AAVForm@Forms@Windows@System@@@Z)
+MatlabForm.obj : error LNK2019: unresolved external symbol "extern "C" struct engine * __cdecl engOpen(char const *)" (?engOpen@@$$J0YAPAUengine@@PBD@Z) referenced in function "public: __clrcall MatlabForm::CMatlab::CMatlab(class System::Windows::Forms::Form ^)" (??0CMatlab@MatlabForm@@$$FQ$AAM@P$AAVForm@Forms@Windows@System@@@Z)
+MatlabForm.obj : error LNK2019: unresolved external symbol "extern "C" int __cdecl engSetVisible(struct engine *,bool)" (?engSetVisible@@$$J0YAHPAUengine@@_N@Z) referenced in function "public: __clrcall MatlabForm::CMatlab::CMatlab(class System::Windows::Forms::Form ^)" (??0CMatlab@MatlabForm@@$$FQ$AAM@P$AAVForm@Forms@Windows@System@@@Z)
+C:\Program Files (x86)\MATLAB\R2016b\extern\lib\win64\microsoft\libmx.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+C:\Program Files (x86)\MATLAB\R2016b\extern\lib\win64\microsoft\libmat.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+C:\Program Files (x86)\MATLAB\R2016b\extern\lib\win64\microsoft\libeng.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+C:\Users\Samir Moustafa\Desktop\Collage Projects\MatlabProject\Debug\MatlabProject.exe : fatal error LNK1120: 4 unresolved externals
